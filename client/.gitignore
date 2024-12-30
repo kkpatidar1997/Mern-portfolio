@@ -1,0 +1,67 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log*
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Build and Production files
+build/
+dist/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+dump.rdb
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# React specific files
+.cache/
+public/*.map
+
+# Coverage and Testing
+coverage/
+.jest/
+*.lcov
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Miscellaneous
+*.pid
+*.seed
+*.log
+
+# Exclude local MongoDB data directory (if used for development)
+data/
+
+# Specific for Parcel bundler
+.cache/
+.parcel-cache/
